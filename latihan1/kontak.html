@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <style>
+        nav{
+            align-items: center;
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+            justify-content: center;
+        
+        }
+        li{
+            margin-right: 5%;
+            display: inline;
+            padding: 10%;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover{
+            background-color: black;
+            color: white;
+            background-size: 1000px;
+            animation-duration: 50ms;
+        }
+        h1{
+            padding-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="dashboard.html">home</a>
+            </li>
+            <li>
+                <a href="kontak.html">kontak</a>
+            </li>
+            <li>
+                <a href="about.html">about</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>
+        Formulir kontak:
+    </h1>
+    <form action="">
+        <label for="nama">nama :</label>
+        <input type="text"><br>
+        <label for="">Kewarganegaraan:</label><br>
+        <input type="radio" name="Kwni" value="WNI">
+        <label for="">WNI</label> <br>
+        <input type="radio" name="Kasing" value="ASING">
+        <label>asing</label><br>
+        <label> Layanan:</label> <br>
+        <input type="checkbox" name="layanan[]" value = "website">
+        <label for="">website</label> <br>
+        <input type="checkbox" name="layanan[]" value = "hosting">
+        <label for="">hosting</label><br>
+        <input type="submit" name="" id="">
+        <input type="reset">
+    </form>
+    
+</body>
+</html>
